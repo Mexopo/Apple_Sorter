@@ -1,0 +1,83 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.221902673558972 -0.9242058757397896 -0.31080975325016535 1.9945440586264025
+  position -4.965549688010817 4.171263293924191 -1.7462881917565116
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0.000496048 0 -0.0195645
+  floorSize 2 3
+}
+IprHd6m180 {
+  hidden position_0_0 3.1194538566503365e-09
+  hidden rotation_1 0 1 0 0.12885500311944875
+  hidden position_1_0 2.5449512510683304e-07
+  hidden rotation_2 0 0 1 0.575555254495124
+  hidden position_2_0 -9.409170463411007e-07
+  hidden rotation_3 0 0 -1 2.2112509409170458
+  hidden position_3_0 3.248311124390666e-07
+  hidden rotation_4 0 0 0.9999999999999999 2.025410324831112
+  hidden position_4_0 -9.733614739676659e-10
+  hidden rotation_5 0 0.9999999999999999 0 2.9943699990266386
+  hidden position_5_0 -7.326915791136184e-09
+  hidden position_5_1 1.0592759559478755e-07
+  hidden translation_11 5.892994962564124e-07 0.03249854952292086 -0.005700087391211153
+  hidden rotation_11 1 2.3454776865565965e-14 -1.4912605044156137e-14 -0.19200000000000278
+  hidden translation_12 5.892995295908587e-07 0.08369854952296063 -8.739144002900545e-08
+  hidden rotation_12 0.6544639226320705 0.5447668446908996 0.5243148471086474 -7.464095635256198e-15
+  hidden rotation_14 1 0 0 1.0745380149674385e-07
+  hidden translation_19 5.89299655212594e-07 0.03249854952304532 0.007699912608827686
+  hidden rotation_19 1 -1.1153536768200693e-16 3.9037378688702424e-16 -2.949685307179596
+  hidden translation_20 5.892995897927022e-07 0.0836985495230056 -8.739144838343371e-08
+  hidden rotation_20 1 -1.2490009040435864e-16 3.3306690774495637e-16 3.1414999999999926
+  translation 0.0505061 0 0.35855
+  rotation 0 1 0 1.44644
+  controller "my_controller"
+}
+SolidBox {
+  translation 0.0542291 0.11 -0.606317
+  rotation 0 1 0 1.57734
+  name "box(2)"
+  size 0.1 0.1 0.1
+  appearance PBRAppearance {
+    baseColor 1 0 0
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.0506908 0.11 -0.973299
+  rotation 0 1 0 1.60352
+  name "box(1)"
+  size 0.1 0.1 0.1
+  appearance PBRAppearance {
+    baseColor 0 0 1
+    roughness 0.5
+    metalness 0
+  }
+}
+ConveyorBelt {
+  hidden translation_1 0 0.04495295550243991 0
+  hidden rotation_1 -1 4.930380657631324e-32 0 3.141592653589792
+  translation 0.0634145 -4.44089e-16 -0.485494
+  rotation 0 -1 0 1.55771
+  size 1.2 0.06 0.22
+  borderThickness 0.01
+  speed 0.05
+}
+SolidBox {
+  translation 0.0565926 0.11 -0.787216
+  rotation 0 1 0 1.58388
+  size 0.1 0.1 0.1
+  appearance PBRAppearance {
+    baseColor 0 1 0
+    roughness 0.5
+    metalness 0
+  }
+}
